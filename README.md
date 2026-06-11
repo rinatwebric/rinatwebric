@@ -72,5 +72,7 @@ const rinat = {
 **Открыт к стажировкам и junior-позициям**
 
 [![GitHub](https://img.shields.io/badge/GitHub-rinatwebric-181717?style=for-the-badge&logo=github)](https://github.com/rinatwebric)
+[![Telegram](https://img.shields.io/badge/Telegram-@rinat__zs-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/rinat_zs)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rinat_Shadiev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rinat-shadiev-906b2b346)
 
 </div>
