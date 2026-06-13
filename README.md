@@ -4,7 +4,7 @@
 
 **Frontend · React Native · TypeScript · Supabase**
 
-Кроссплатформенные приложения с нуля: auth, БД, админки, карты, real-time.
+Собираю полноценные приложения: auth, БД, real-time, админки, карты, модерация.
 
 📍 Bishkek, Kyrgyzstan
 
@@ -16,13 +16,13 @@
 
 Frontend-разработчик. Делаю **мобильные и web-клиенты** на **Expo + React Native + TypeScript**.
 
-Сам проектирую клиентскую архитектуру, подключаю **Supabase** (Auth, Postgres, Storage, RLS), собираю полноценные продукты — не демо на пару экранов.
+Проектирую клиентскую архитектуру, подключаю **Supabase / Firebase**, собираю продукты с нуля — не демо на пару экранов.
 
 ```typescript
 const rinat = {
   role: "Frontend developer",
-  stack: ["React Native", "Expo", "TypeScript", "Supabase", "React Query"],
-  shipped: ["marketplace", "social network", "eco-volunteer platform"],
+  stack: ["React Native", "Expo", "TypeScript", "Supabase", "Firebase", "React Query"],
+  shipped: 3, // marketplace · social network · eco-volunteer platform
   openTo: ["junior", "internship", "freelance MVP"],
 };
 ```
@@ -31,15 +31,35 @@ const rinat = {
 
 ## Проекты
 
-| | | Проект | Что внутри |
-|:---:|:---|:---|:---|
-| 🔄 | **флагман** | [**SwapHub**](https://github.com/rinatwebric/swaphub) | Бартер-маркетплейс · объявления · real-time чат · сделки · отзывы · админка |
-| 🌿 | | [**EcoVolunteer**](https://github.com/rinatwebric/ecovolunteer) | Эковолонтёры · события · карта · фото-отчёты · модерация · лидерборд |
-| 🎓 | | [**StudentHub**](https://github.com/rinatwebric/studenthub) | Студенческая соцсеть (MVP) · React · Firebase |
+Три pet project с разным фокусом — все с админкой, auth и реальной бизнес-логикой.
 
-<p align="center">
-  <b>Стек проектов:</b> Expo · React Native · TypeScript · Supabase · React Query · Firebase · Leaflet
-</p>
+### [SwapHub](https://github.com/rinatwebric/swaphub) — бартер-маркетплейс
+
+<img src="https://raw.githubusercontent.com/rinatwebric/swaphub/main/docs/screenshots/01-catalog.png" width="220" alt="SwapHub"/>
+
+**Сильная сторона:** marketplace + real-time чат + сделки + отзывы + жалобы + i18n (EN/RU/KG)
+
+`Expo` · `Supabase` · `React Query` · `RLS`
+
+---
+
+### [StudentHub](https://github.com/rinatwebric/studenthub) — студенческая соцсеть
+
+<img src="https://raw.githubusercontent.com/rinatwebric/studenthub/main/docs/screenshots/01-feed.png" width="220" alt="StudentHub"/>
+
+**Сильная сторона:** лента, чаты, события, расписание, голосовые звонки, модерация
+
+`React` · `Firebase` · `Firestore` · `Tailwind`
+
+---
+
+### [EcoVolunteer](https://github.com/rinatwebric/ecovolunteer) — платформа эковолонтёров
+
+<img src="https://raw.githubusercontent.com/rinatwebric/ecovolunteer/main/docs/screenshots/01-events.png" width="220" alt="EcoVolunteer"/>
+
+**Сильная сторона:** события, карта, фото-отчёты с гео, модерация, лидерборд
+
+`Expo` · `Supabase` · `Leaflet` · `EAS Build`
 
 ---
 
@@ -51,6 +71,7 @@ const rinat = {
   <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"/>
   <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo"/>
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
   <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="React Query"/>
 </p>
 
